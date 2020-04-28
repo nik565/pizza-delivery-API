@@ -1,0 +1,27 @@
+<h1>Provide your payment details</h1>
+
+<div class="formWrapper">
+    <form id="orderCreate" action="/api/checkout" method="POST">
+        <div class="formError"></div>
+        <input class="hiddenEmailIdInput" type="hidden" name="emailId" />
+        <div class="inputWrapper">
+            <div class="inputLabel">Email Address</div>
+            <input class="disabled displayEmailId" type="text" name="emailId" disabled />
+        </div>
+        <div class="inputWrapper">
+            <div class="inputLabel">Total amount</div>
+            <input class="disabled displayAmount" type="text" name="amount" disabled />
+        </div>
+        <div class="inputWrapper">
+            <div class="inputLabel">Card Number</div>
+            <input class="nameInput" type="text" name="cardNumber" placeholder="4242 4242 4242 4242" />
+        </div>
+        <div class="inputWrapper">
+            <div class="inputLabel">CVC</div>
+            <input class="nameInput" type="password" name="cvc" placeholder="***" />
+        </div>
+        <div class="inputWrapper ctaWrapper">
+            <button type="submit" class="cta green">Pay</button>
+        </div>
+    </form>
+</div>

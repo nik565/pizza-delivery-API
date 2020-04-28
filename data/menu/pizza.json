@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "pizza margherita",
+            "price": 100
+        },
+        {
+            "id": 2,
+            "name": "veg loaded",
+            "price": 60
+        },
+        {
+            "id": 3,
+            "name": "paneer makhani",
+            "price": 80
+        }
+    ]
+}
